@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Freelancer Hub</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/script.js' %}" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Freelancer Collaboration Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/profiles">Profiles</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Your Platform for Collaboration</h2>
+            <p>Connect with freelancers possessing complementary skills, streamline your project management, and track your shared earnings effortlessly.</p>
+        </section>
+        <section class="features">
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>Create detailed profiles showcasing your expertise.</li>
+                <li>Discover and join exciting projects that match your skills.</li>
+                <li>Collaborate seamlessly with transparent communication tools.</li>
+                <li>Track and manage earnings efficiently with built-in tools.</li>
+            </ul>
+        </section>
+        <section class="cta">
+            <h2>Get Started Today</h2>
+            <p>Join thousands of freelancers already expanding their horizons with Freelancer Collaboration Hub.</p>
+            <a href="/signup" class="button">Sign Up</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Freelancer Hub. All rights reserved.</p>
+        <p><a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
